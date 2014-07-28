@@ -1,6 +1,6 @@
-# DBpedia entity scores MySQL 5.6 #
+# DBpedia Autocomplete #
 
-A MySQL database based on the DBpedia dataset (http://downloads.dbpedia.org/3.9/ca/labels_ca.nt.bz2) and pagerank dataset (http://people.aifb.kit.edu/ath/pagerank_en_3.9.tsv.bz2).
+A MySQL 5.6 database based on the DBpedia dataset (http://downloads.dbpedia.org/3.9/ca/labels_ca.nt.bz2) and pagerank dataset (http://people.aifb.kit.edu/ath/pagerank_en_3.9.tsv.bz2).
 
 ## Table Description ##
 
