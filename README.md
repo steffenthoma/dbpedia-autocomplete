@@ -6,12 +6,12 @@ A MySQL database based on the DBpedia dataset (http://downloads.dbpedia.org/3.9/
 
 The table entityScoreShort consists of the following columns:
 
-* URI: URI of a DBpedia resource
-* label: first 255 characters of the label used to reference the DBpedia resource
-* score: calculated pagerank score for the DBpedia resource
+* 'URI': URI of a DBpedia resource
+* 'label': first 255 characters of the label used to reference the DBpedia resource
+* 'score': calculated pagerank score for the DBpedia resource
 
 The column 'label' is indexed for querying e.g. for autocompletion tasks.
 
 ## Example Task ##
 
-This database can be used for entity retrieval (URIs) from text based on a comparison with the used labels. 
+entitySearch.html uses JQuery UI Autocomplete (http://jqueryui.com/autocomplete/) for suggesting appropriate entities from the MySQL database. Therefor data.php queries the MySQL database for the top 10 (measured by pagerank score) URIs whose corresponding labels begin with the entered char sequence and returns them to entitySearch.html.
