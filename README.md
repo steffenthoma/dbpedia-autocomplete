@@ -15,3 +15,5 @@ The column 'label' is indexed for querying e.g. for autocompletion tasks.
 ## Example Task ##
 
 entitySearch.html uses JQuery UI Autocomplete (http://jqueryui.com/autocomplete/) for suggesting appropriate entities from the MySQL database. Therefor data.php queries the MySQL database for the top 10 (measured by pagerank score) URIs whose corresponding labels begin with the entered char sequence and returns them to entitySearch.html.
+
+<img src="https://raw.githubusercontent.com/steffenthoma/dbpedia-autocomplete/master/example.png">
